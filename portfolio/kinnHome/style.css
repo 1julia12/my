@@ -1,0 +1,348 @@
+/* МЕНЮ */
+.back{
+    background-image: url('/portfolio/kinnHome/img/Rectangle.png');
+    background-repeat: no-repeat;
+    height: 2vw;
+}
+.menu_text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 158%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #56593d;
+}
+.menu_grid{
+    display: grid;
+    grid-template-columns: 23% 20% 20% 21%;
+    justify-items: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 48% 44% 6%;
+    align-items: center;
+}
+/*  БЛОК ПЕРВЫЙ  */
+.blok1{
+    background: #ffffef;
+    height: 51vw;
+    background-size: 100%;
+}
+.blok1_picture{
+    background-image: url('/portfolio/kinnHome/img/Rectangle\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 51vw;
+    background-size: 98%;
+    background-position-x: center;
+    background-position-y: center;
+}
+.text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+    text-align: right;
+    color: #56593d;
+}
+.text1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 134%;
+    text-align: right;
+    color: #56593d;
+    margin: 2% 0px;
+}
+.button{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffef;
+    background: #56593d;
+    border: #56593d;
+    width: 12vw;
+    height: 4vw;
+}
+/* БЛОК ТРЕТИЙ */
+.blok3{
+    background: #ffffef;
+    height: 51vw;
+    background-size: 100%;
+    margin: 2%;
+}
+.text2{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.65vw;
+    line-height: 135%;
+    text-align: center;
+    color: #56593d;
+}
+.blok3_grid{
+    display: grid;
+    grid-template-columns: 33% 33.5% 34%;
+    justify-items: center;
+}
+.text3{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 135%;
+    text-align: center;
+    color: #56593d;
+}
+.text4{
+    font-family:"Roboto";
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 162%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #717353;
+}
+/* БЛОК ЧЕТВЕРТЫЙ */
+.blok4{
+    background: #ffffef;
+    height: 51vw;
+    background-size: 100%;
+    margin: 2%;
+}
+.blok4_fon{
+    background-image: url('/portfolio/kinnHome/img/Rectangle\ \(5\).png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 51vw;
+    background-size: 98%;
+    background-position-x: center;
+    background-position-y: center;
+}
+.blok4_text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.17vw;
+    line-height: 127%;
+    letter-spacing: 0.11em;
+    text-align: center;
+    color: #56593d;
+    margin: 0%;
+}
+.text5{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 121%;
+    text-align: center;
+    color: #56593d;
+    margin: 0%;
+}
+/* БЛОК ПЯТЫЙ */
+.blok5{
+    background: #ffffef;
+    height: 51vw;
+    background-size: 100%;
+    margin: 2%;
+}
+.poloska{
+    width: 2.8vw;
+    height: 0.01vw;
+    background: #717353;
+    margin: 0px 0px 0px 46%;
+}  
+.text6{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 134%;
+    text-align: center;
+    color: #56593d;
+}
+.text7{
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 1.37vw;
+    line-height: 162%;
+    text-align: center;
+    color: #56593d;
+}
+.blok5_grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+/* БЛОК ШЕСТОЙ */
+.blok6{
+    background: #ffffef;
+    height: 70vw;
+    background-size: 100%;
+    margin: 2%;
+}
+/* БЛОК СЕДЬМОЙ */
+.blok7{
+    background: #ffffef;
+    height: 19vw;
+    background-size: 100%;
+    margin: 3%;
+}
+.blok7_text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.9vw;
+    line-height: 139%;
+    text-align: center;
+    color: #56593d;
+}
+.blok7_text1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.17vw;
+    line-height: 169%;
+    text-align: center;
+    color: #56593d;
+}
+.poloska1{
+    width: 23.3vw;
+    height: 0.1vw;
+    background: #56593d;
+    margin: 0px 2% 0px;
+}
+.button1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 151%;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffef;
+    background: #56593d;
+    border: #56593d;
+    width: 9.8vw;
+    height: 1.5vw;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 3%;
+}
+.blok7_flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+/* БЛОК ВОСЬМОЁ */
+.blok8{
+    background: #ffffef;
+    height: 36vw;
+    background-size: 100%;
+    margin: 2%;
+}
+.blok8_text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.7vw;
+    line-height: 130%;
+    text-align: center;
+    color: #56593d;
+}
+.ticker_wrapper{
+    display: grid;
+    grid-template-columns: 40% 40% 40% 40%;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+.ticker{
+    overflow: hidden;
+    position: relative;
+}
+.triker__iteam{
+    white-space: nowrap;
+    animation: ticker 10s linear infinite;
+    padding: 0px 20%;
+}
+.triker__iteam:hover{
+    animation-play-state: paused;
+}
+@keyframes ticker{
+    0%{
+        transform: translateX(300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+/*  БЛОК ВТОРОЙ */
+.blok2_text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 142%;
+    text-align: center;
+    color: #56593d;
+    margin: 0;
+}
+.text8{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 160%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #56593d;
+}
+.blok2_flex{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    display: flex;
+}
+.blok2{
+    margin: 9% 7%;
+}
+/* БЛОК ДЕВЯТЫЙ */
+.blok9{
+    background: #717353;
+    width: 100%;
+    height: 26.2vw;
+    margin: 11% 0px 0px 0px;
+
+}
+.blok9_text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 168%;
+    color: #ffffef;
+}
+.blok9_text1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 158%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffef;
+}
+.blok9_grid{
+    display: grid;
+    grid-template-columns: 22% 19% 16%;
+    justify-items: center;
+    padding: 3% 0px 0px 0px;
+}
+.poloska2{
+    width: 40px;
+    height: 1px;
+    background: #ffffef;
+}

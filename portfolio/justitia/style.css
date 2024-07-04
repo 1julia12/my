@@ -1,0 +1,560 @@
+@font-face{
+    font-family: 'Open Sans Condensed';
+    src: url('/fonts/OpenSansCondensed-Bold.woff2'),
+     url('/fonts/OpenSansCondensed-Bold.woff');
+     font-display: swap;
+     
+}
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('/fonts/ofont.ru_PF\ Din\ Text\ Cond\ Pro.woff2'),
+     url('/fonts/ofont.ru_PF\ Din\ Text\ Cond\ Pro.woff');
+     font-display: swap;
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('/fonts/myriadpro-light.woff2'), 
+    url('/fonts/myriadpro-light.woff');
+    font-display: swap;
+}
+/* МЕНЮ */
+.menu__text{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+}
+.menu__text1{
+    font-family: "PF Din Text Cond Pro";
+    font-weight: 400;
+    font-size: 1.87vw;
+    line-height: 100%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+.menu__text2{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    align-items: center;
+    justify-content: center;
+
+    height: 6vw;
+    width: 100%;
+}
+.menu__grid1{
+    display: grid;
+    grid-template-columns: 30% 15% 15%;
+    align-items: center;
+    /* justify-content: center; */
+    justify-items: center;
+}
+.menu__grid2{
+    display: grid;
+    grid-template-columns: 44% 36%;
+    align-items: center;
+    justify-content: center;
+}
+.menu__flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+/* БЛОК ПЕРВЫЙ */
+
+.blok1__color{
+    background-color: rgba(29, 50, 104, 0.85);
+    height: 30.6vw;
+}
+.blok1{
+    
+    background-image: url('/portfolio/justitia/img/image\ 3.png');
+    
+    background-repeat: no-repeat;
+    height: 30.6vw;
+    background-size: 100%;
+}
+.blok1__text{
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 141%;
+    text-align: center;
+    color: #fff;
+}
+.blok1__text1{
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 1.07vw;
+    line-height: 177%;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+.blok1__grid{
+    display: grid;
+    grid-template-rows: 85% 25% 20%;
+    justify-items: center;
+    align-items: end;
+}
+/* БЛОК ВТОРОЙ */
+.blok2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 27% 6%;
+}
+/* БЛОК ТРЕТИЙ */
+.blok3__position{
+    margin: 3vw 22vw 0px;
+}
+.blok3__h1{
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 2.2vw;
+    line-height: 125%;
+    text-align: center;
+    color: #223463;
+}
+.blok3__h2{
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 125%;
+    color: #000;
+    margin: 0%;
+}
+.poloska{
+    border: 2px solid #8ea7cd;
+    width: 55vw;
+    height: 0px;
+}
+.blok3__spisok{
+    display: grid;
+    grid-template-columns: 54% 45%;
+}
+.text{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 135%;
+    color: #1d509c;
+    margin: 3%;
+}
+.margin{
+    margin: 5.5vw 0px 0px;
+}
+.blok3{
+    margin: 0px 0px 15%;
+}
+/* БЛОК ЧЕТВЕРТЫЙ */
+.blok4{
+    background-image: url('/portfolio/justitia/img/image\ 11.png');
+    background-repeat: no-repeat;
+    height: 21.33vw;
+    background-size: 100% auto;
+}
+.blok4__color{
+    background: #f3f6fa;
+    opacity: 0.94;
+    height: 21.33vw;
+}
+.squar{
+    border: 2px solid #1d509c;
+    width: 22.7vw;
+    height: 10.8vw;
+}
+.text2{
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 2.3vw;
+    line-height: 125%;
+    text-align: center;
+    color: #223463;
+}
+.text3{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+}
+.blok4__grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    height: 20.7vw;
+    align-items: center;
+}
+/* БЛОК ПЯТЫЙ */
+.blok5__h2{
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 132%;
+    text-align: center;
+    color: #000;
+}
+.blok5__text{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 150%;
+    text-align: center;
+    color: #4f4f4f;
+}
+.blok5__h1{
+    font-family:"Open Sans Condensed";
+    font-weight: 700;
+    font-size: 2.3vw;
+    line-height: 125%;
+    text-align: center;
+    color: #223463;
+}
+.blok5__grid{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-items: center;
+    justify-content: center;
+    margin: 5% 0px;
+}
+.blok5{
+    margin: 10% 2% 5%;
+}
+/* БЛОК СЕДЬМОЙ */
+.blok7{
+    background-image: url('/portfolio/justitia/img/image\ 5.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 22.2vw;
+}
+.blok7__color{
+    background: rgba(34, 52, 99, 0.9);
+    height: 22.2vw;
+}
+.blok7__text{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin: 0%;
+}
+.blok7__h1{
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 2.3vw;
+    line-height: 125%;
+    text-align: center;
+    color: #fff;
+    margin: 0%;
+}
+.blok7__grid{
+    display: grid;
+    grid-template-rows: 60% 60% 25% 32%;
+    justify-items: center;
+}
+/* БЛОК ДЕВЯТЬ */
+.blok9__h1{
+    font-family:"Open Sans Condensed", sans-serif ;
+    font-weight: 700;
+    font-size: 2.3vw;
+    line-height: 125%;
+    color: #223463;
+}
+.blok9__text{
+    font-family: "IBM Plex Sans ", sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 177%;
+    color: #000;
+}
+.blok9{
+    margin: 10% 21vw 10%;
+}
+/* БЛОК ДЕСЯТЫЙ */
+.blok10{
+    background: #273147;
+    height: 24.5vw;
+    width: 100%;
+}
+.blok10__blok{
+    background: #151e33;
+    height: 20.8vw;
+    width: 20vw;
+    position: relative;
+    top: -10%;
+    left: 4%;
+}
+.blok10__h1{
+    font-family:"PF Din Text Cond Pro";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 0%;
+}
+.blok10__number{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.blok10__text{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.poloska1{
+    border: 1px solid #707277;
+    width: 128px;
+    height: 0px;
+}
+.poloska2{
+    border: 1px solid #383b43;
+    width: 250px;
+    height: 0px;
+    margin: 10% 8% 10%;
+}
+.blok10__grid{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+.blok10__h2{
+    font-family:"IBM Plex Sans";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #fff;
+}
+.blok10__text1{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #fff;
+}
+.blok10__grid1{
+    display: grid;
+    grid-template-columns: 31% 30% 8% 51%;
+    align-items: center;
+    justify-items: center;
+}
+/* БЛОК ШЕСТОЙ */
+.tab input, .tab-content { display: none; }
+   .tab {
+    border: 1px solid #e9eaec; /* Параметры рамки */
+    margin-bottom: 10px; /* Расстояние между пунктами */
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #000;
+   }
+   .tab-title {
+    padding: 10px; /* Поля вокруг текста */
+    display: block; /* Блочный элемент */
+    cursor: pointer; /* Вид курсора */
+   }
+   .tab-title::after {
+    content: '+'; /* Выводим плюс */
+    float: right; /* Размещаем по правому краю */
+   }
+   .tab-content {
+    padding: 10px 20px; /* Поля вокруг текста */
+   }
+   .tab :checked + .tab-title {
+    background-color: #052984; /* Цвет фона */
+    border-radius: 3px 3px 0 0; /* Скругляем уголки */
+    color: #fff; /* Цвет текста */
+   }
+   .tab :checked + .tab-title::after {
+    content: '−'; /* Выводим минус */
+   }
+   .tab :checked ~ .tab-content {
+    display: block; /* Показываем содержимое */
+   }
+.blok6__h1{
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 125%;
+    text-align: center;
+    color: #223463;
+}
+.blok6{
+    margin: 0px 17vw 11%;
+}
+.accordion{
+    margin: 5%;
+}
+/* БЛОК ВОСЬМОЙ */
+.blok8__h1{
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 125%;
+    text-align: center;
+    color: #223463;
+}
+.blok8{
+    margin: 10% 0px 10%;
+}
+.blok8__text1{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #000;
+}
+.blok8__text{
+    font-family: "IBM Plex Sans", sans-serif;
+font-weight: 600;
+font-size: 17px;
+line-height: 150%;
+color: #000;
+padding: 0% 0% 0% 1%;
+}
+.blok8__flex{
+ display: flex;
+}
+.blok8__blok{
+    margin: 1% 30%;
+    border: 2px solid #1d509c;
+    width: 559px;
+    height: 324px;
+}
+/* БЛОК ДВЕНАДЦАТЫЙ */
+.blok12__text{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #444;
+}
+.blok12__text1{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #444;
+}
+.blok12{
+    display: grid;
+    grid-template-columns: 12% 82% 1%;
+    justify-items: center;
+    margin: 0;
+}
+
+/* BUTTONS */
+
+.button{
+    border: 1px solid #706f6f;
+    width: 146px;
+    height: 42px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    background: transparent;
+}
+.button1{
+    border: 1px solid #fff;
+    width: 234px;
+    height: 51px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    background: transparent;
+}
+.button3{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    padding: 13px 33px 14px 33px;
+    width: 161px;
+    height: 46px;
+    background: #223463;
+    border:#223463 ;
+}
+.button4{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    border: 1px solid #706f6f;
+    padding: 11px 33px 12px 33px;
+    width: 161px;
+    height: 46px;
+    background: transparent;
+}
+.button2{
+    background: #223463;
+    padding: 13px 33px 14px 33px;
+    width: 262px;
+    height: 48px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+.button5{
+    border: 1px solid #000;
+    padding: 11px 33px 12px 33px;
+    width: 161px;
+    height: 48px;
+    font-family:"IBM Plex Sans", sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+}
+.button6{
+    padding: 13px 33px 14px 23px;
+width: 217px;
+height: 48px;
+background: #fff;
+font-family: "IBM Plex Sans", sans-serif ;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+text-align: center;
+color: #223463;
+}
